@@ -16,6 +16,12 @@ variable "network_name" {
   default     = "default"
 }
 
+variable "network_private_subnet_name" {
+  type        = string
+  description = "The network's private subnet name"
+  default     = "default"
+}
+
 variable "service_account_id" {
   type        = string
   description = "Service Account Id"

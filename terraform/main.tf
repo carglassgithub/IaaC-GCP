@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "kanvas-laravel-iaac"
+    bucket = "memod-iaac"
     prefix = "terraform/state"
   }
 }

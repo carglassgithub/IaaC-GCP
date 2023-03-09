@@ -1,4 +1,5 @@
-cluster_name       = "kanvas-cluster"
-service_account_id = "113176445166950279713"
-network_name       = "kanvas-network"
+cluster_name       = "memod-cluster"
+service_account_id = "105448752441733567749"
+network_name       = "memod-staging-network"
+network_private_subnet_name = "memod-staging-private-subnet-1"
 project_id         = "memod-282814"
