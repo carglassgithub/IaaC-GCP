@@ -15,7 +15,7 @@ resource "google_container_cluster" "primary" {
       "https://www.googleapis.com/auth/cloud-platform"
     ]
 
-    tags = ["kanvas-node"]
+    # tags = ["memod-node"]
   }
 
   timeouts {
