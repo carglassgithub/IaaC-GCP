@@ -5,7 +5,7 @@ resource "google_compute_firewall" "kubernetes_ingress_rules" {
 
   allow {
     protocol = "tcp"
-    ports    = ["3306", "6379", "5672", "587","3002","9200","9300"]
+    ports    = ["3306", "6379", "5672", "587","3002","9200","9300","443"]
   }
 
   target_tags = ["kanvas-node"]
@@ -20,7 +20,7 @@ resource "google_compute_firewall" "kubernetes_egress_rules" {
 
   allow {
     protocol = "tcp"
-    ports    = ["3306", "6379", "5672", "587","3002","9200","9300"]
+    ports    = ["3306", "6379", "5672", "587","3002","9200","9300","443"]
   }
 
   target_tags = ["kanvas-node"]
